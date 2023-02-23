@@ -1,46 +1,25 @@
-# Getting Started with Create React App
+# Simulador campeonato de Kendo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Link para documentação [no Notion](https://field-hub-bea.notion.site/Controlador-de-campeonato-Kendo-cb06bd1cd32848eb88a032b8d5d0d849).
 
-## Available Scripts
+### Primeira Instalação
 
-In the project directory, you can run:
+Se você nunca desenvolveu nesse repositório antes precisa seguir os seguintes passos:
 
-### `yarn start`
+```bash
+# 1. Clone o repositório
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+$ git clone https://github.com/lpcomp/kendo-tournament.git
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# 2 . Acessa a pasta do projeto pelo cmd/terminal
 
-### `yarn test`
+$ cd kendo-tournament
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 3. Instale as dependecias rodando o comando yarn
 
-### `yarn build`
+$ yarn install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 4. Rode o projeto localmente
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+$ yarn start
+```
